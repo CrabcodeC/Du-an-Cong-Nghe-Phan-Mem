@@ -80,7 +80,7 @@ body {
 .input-field input:focus,
 .input-field input:valid {
   outline: none;
-  border: solid 1px #0034de;
+  border: solid 1.5px #0034de;
 }
 .input-field input:focus ~ label,
 .input-field input:valid ~ label {

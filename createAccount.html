@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tạo tài khoản</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="heading">Tạo tài khoản</h3>
+      <form class="form" action="">
+        <div class="input-field">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+            autocomplete="off"
+          />
+          <label for="username">Tên người dùng</label>
+        </div>
+        <div class="input-field">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            autocomplete="off"
+          />
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            autocomplete="off"
+          />
+          <label for="password">Mật khẩu</label>
+        </div>
+        <div class="check-field">
+          <input type="checkbox" name="check" value="yes" />Tôi đồng ý với các
+          <a href="_blank">điều khoản</a> của Green Foods
+        </div>
+        <div class="btn-container">
+          <button class="btn" onclick="sendOTP()">Đăng ký</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
